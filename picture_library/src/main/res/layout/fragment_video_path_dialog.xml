@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    android:layout_height="40dp">
+
+    <LinearLayout
+        android:id="@+id/ll_preservation"
+        android:layout_width="200dp"
+        android:background="@color/white"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="保存视频"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="#333333"
+            android:layout_gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>
